@@ -1,0 +1,11 @@
+<nav class="mb-4 p-4 bg-gray-800 text-white flex flex-col items-center">
+  <div class="flex flex-col items-center">
+    <span class="text-4xl font-semibold">BookNest</span> <!-- Increased the font size to make it bigger -->
+    <ul class="flex space-x-4 mt-4"> <!-- Added margin to separate the buttons from the title -->
+      <li><a routerLink="/get-books" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Get Books</a></li>
+      <li><a routerLink="/add-book" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-700">Add Book</a></li>
+    </ul>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
