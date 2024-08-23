@@ -11,7 +11,6 @@ This repository contains the frontend code for the BookNest application, built w
 - Connecting to the Backend
 - Environment Variables
 - Built With
-- License
 
 ## Project Structure
 
@@ -75,6 +74,3 @@ If the backend is running on a different URL or port, you may need to configure 
 - Angular - Framework used for building the frontend.
 - Tailwind CSS - Utility-first CSS framework for styling.
 
-## License
-
-This project is licensed under the MIT License.
