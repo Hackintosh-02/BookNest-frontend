@@ -1,27 +1,80 @@
-# Frontend
+# BookNest - Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
+This repository contains the frontend code for the BookNest application, built with Angular and styled using Tailwind CSS.
 
-## Development server
+## Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Project Structure
+- Prerequisites
+- Installation
+- Running the Application
+- Connecting to the Backend
+- Environment Variables
+- Built With
+- License
 
-## Code scaffolding
+## Project Structure
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The project structure is as follows:
 
-## Build
+src/
+  ├── app/
+  ├── assets/
+  ├── environments/
+  ├── index.html
+  ├── main.ts
+  └── styles.css
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Prerequisites
 
-## Running unit tests
+Before you begin, ensure you have the following installed on your machine:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Node.js (v14 or later)
+- npm (Node Package Manager)
+- Angular CLI (v12 or later)
+  - Install globally using: npm install -g @angular/cli
 
-## Running end-to-end tests
+## Installation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. **Clone the repository**:
 
-## Further help
+   git clone https://github.com/Hackintosh-02/BookNest-frontend.git
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+2. **Navigate to the project directory**:
+
+   cd BookNest-frontend
+
+3. **Install dependencies**:
+
+   npm install
+
+## Running the Application
+
+1. **Start the Angular development server**:
+
+   ng serve
+
+2. **Access the application**:
+
+   Open your web browser and go to http://localhost:4200/.
+
+## Connecting to the Backend
+
+This frontend is designed to work with the BookNest backend, which is hosted in a separate repository. Ensure that the backend is running locally or is accessible via a remote server.
+
+Backend Repository: [BookNest Backend](https://github.com/Hackintosh-02/BookNest-backend)
+
+If the backend is running on a different URL or port, you may need to configure the frontend to point to the correct API endpoint. This can usually be done in the Angular service files where HTTP requests are made.
+
+## Environment Variables
+
+- The frontend does not require any special environment variables to run. It connects to the backend API at a specified URL, which you can configure if needed.
+
+## Built With
+
+- Angular - Framework used for building the frontend.
+- Tailwind CSS - Utility-first CSS framework for styling.
+
+## License
+
+This project is licensed under the MIT License.
